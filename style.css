@@ -38,18 +38,34 @@ h1 {
 input {
   margin-right: 1.5em;
   margin-bottom: 1.5em;
+  border: 1px solid transparent;
+  border-bottom: 1px solid gray;
 }
+input:last-child {}
 
 .content {
+  margin-top: 3em;
   background-image: url("paper.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
+  border-radius: 10%;
 }
+span {
+  width: 15em;
+  height: auto;
+}
+
 li {
   font-family: "Sketch";
   letter-spacing: .5em;
+  padding-top: 1.1em;
+  color: navy;
   font-size: 1.5em;
   list-style: none;
+}
+li:hover {
+  color: red;
+  transition: all .05s ease;
 }

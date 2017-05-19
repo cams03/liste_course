@@ -1,5 +1,5 @@
 (function() {
-  var liste_courses = "http://courses/ajouter";
+  var liste_courses = "http://courses.com/ajouter";
 
   $("#valider").on("click", function(){
 

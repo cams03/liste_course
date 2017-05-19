@@ -1,3 +1,11 @@
+@font-face {
+  src: url("fonts/HB Sketch Demo.otf");
+  font-family: "Sketch";
+}
+@font-face {
+  src: url("fonts/tradizional DEMO.otf");
+  font-family: "Traditional";
+}
 body {
   margin: 0;
 }
@@ -5,9 +13,42 @@ body {
 form {
   margin-bottom: 10px;
 }
+
+h1 {
+  padding: 1em;
+  font-family: "Traditional",serif;
+  letter-spacing: 0.8em;
+  font-size: 5em;
+}
+
+.input-text {
+  max-width: 600px;
+}
+.control-label {
+  margin-right: 1em;
+  padding-bottom: 18px;
+  font-family: "Traditional",serif;
+  font-size: 2.5em;
+}
+
+.control-label:nth-child(2) {
+  margin-left: 1em;
+}
+
+input {
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 .content {
   border: 1px solid gray;
   background-color: ivory;
-  width: 80vh;
+  width: 100%;
   height: 100vh;
+}
+li {
+  font-family: "Sketch";
+  letter-spacing: .5em;
+  font-size: 1.5em;
+  list-style: none;
 }

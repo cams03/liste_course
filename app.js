@@ -1,8 +1,11 @@
 (function() {
   var liste_courses = "http://courses/ajouter";
-  $.getJSON( liste_courses, {
-    format: "json"
-  })
+
+  $("#valider").on("click", function(){
+
+    $.getJSON( liste_courses, {
+      format: "json"
+    })
     .done(function( data ) {
       $.each( data.items, function( i, item ) {
         $( "li" ).appendTo( "#list" );
@@ -11,4 +14,5 @@
         }
       });
     });
+  })
 })();

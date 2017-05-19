@@ -2,44 +2,46 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Liste des courses</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Liste des courses</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
- <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center">Ma liste des courses</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-offset-lg-8">
-                <form class="form-inline" action="index.html" method="post">
-                    <div class="form-group">
-                        <label for="nom">Nom</label><input type="text" name="nom" value="" id="nom">
-                        <label for="qte">Quantité</label><input type="text" name="qte" value="" id="qte">
-                        <input type="submit" class="btn btn-info" name="button" id="valider">
-                    </div>
 
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-offset-lg-8">
-                <div class="content">
-                    <ul id="list">
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Ma liste de courses</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-offset-lg-8">
+        <form class="form-inline" action="index.html" method="post">
+          <div class="form-group">
+              <label for="nom" class="control-label">Nom</label>
+            <input type="text" name="nom" value="" id="nom">
+              <label for="qte" class="control-label">Quantité</label>
+            <input type="text" name="qte" value="" id="qte">
+            <input type="submit" class="btn btn-info" name="button" id="valider">
+          </div>
 
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="app.js" charset="utf-8"></script>
+        </form>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="col-lg-12">
 
-        </body>
+        <ul id="list">
+<li>Hallo</li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+</body>
 
 </html>

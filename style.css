@@ -1,5 +1,13 @@
+body {
+  margin: 0;
+}
+
+form {
+  margin-bottom: 10px;
+}
 .content {
-  background-color: red;
-  width: 100px;
-  height: 500px;
+  border: 1px solid gray;
+  background-color: ivory;
+  width: 800px;
+  height: 100vh;
 }
